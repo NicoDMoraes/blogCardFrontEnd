@@ -19,3 +19,18 @@ body {
   width: 384px;
   background: #FFFF;
 }
+
+.avatar {
+  height: 32px;
+  width: 32px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.author {
+  font-weight: bolder;
+}
