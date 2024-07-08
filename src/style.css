@@ -34,3 +34,27 @@ body {
 .author {
   font-weight: bolder;
 }
+
+.center {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.badge {
+  background: #F4D04E;
+  width: fit-content;
+  font-weight: bold;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-size: 14px;
+}
+
+.title {
+  font-weight: bolder;
+  font-size: 24px;
+}
+
+.summary {
+  color: #7F7F7F;
+}
