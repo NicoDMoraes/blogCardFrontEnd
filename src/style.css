@@ -1,0 +1,16 @@
+body {
+  height: 100dvh;
+  width: 100vw;
+  background: #F4D04E;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 20px;
+  border: #0000;
+  width: 384px;
+  height: 522px;
+  background: #FFFF;
+}
