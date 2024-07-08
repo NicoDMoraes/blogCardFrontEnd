@@ -8,9 +8,14 @@ body {
 }
 
 .card {
+  display: flex;
+  padding: 24px;
+  gap: 24px;
+  flex-direction: column;
   border-radius: 20px;
-  border: #0000;
+  border-color: #0000;
+  border: solid;
+  box-shadow: 8px 8px black;
   width: 384px;
-  height: 522px;
   background: #FFFF;
 }
