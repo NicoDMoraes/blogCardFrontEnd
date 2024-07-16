@@ -1,13 +1,18 @@
 body {
   height: 100dvh;
-  width: 100vw;
   background: #F4D04E;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
+@font-face {
+  font-family: figtree;
+  src: url('/stream/blogFrontEnd/BlogCard/public/fonts/Figtree-Italic-VariableFont_wght.ttf');
+}
+
 .card {
+  font-family: figtree;
   display: flex;
   padding: 24px;
   gap: 24px;
@@ -15,24 +20,25 @@ body {
   border-radius: 20px;
   border-color: #0000;
   border: solid;
+  border-width: thin;
   box-shadow: 8px 8px black;
-  width: 384px;
+  width: 336px;
   background: #FFFF;
+}
+
+.card:hover {
+  box-shadow: 16px 16px black;
+}
+
+.hero {
+  height: 200px;
+  width: fit-content;
+  border-radius: 20px;
 }
 
 .avatar {
   height: 32px;
   width: 32px;
-}
-
-.footer {
-  display: flex;
-  align-items: center;
-  gap: 12px;
-}
-
-.author {
-  font-weight: bolder;
 }
 
 .center {
@@ -44,7 +50,7 @@ body {
 .badge {
   background: #F4D04E;
   width: fit-content;
-  font-weight: bold;
+  font-weight: bolder;
   border-radius: 4px;
   padding: 4px 12px;
   font-size: 14px;
@@ -55,6 +61,23 @@ body {
   font-size: 24px;
 }
 
+.title:hover {
+  color: #F4D04E;
+}
+
 .summary {
+  font-size: 16px;
   color: #7F7F7F;
+  line-height: 1.5em;
+
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.author {
+  font-weight: bolder;
 }
